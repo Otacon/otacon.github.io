@@ -18,21 +18,49 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Orfeo's personal blog
+subtitle: Let's talk about tech
+# email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://otacon.github.io"
+locale: en-GB
+search: true
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
 
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+
+# Author Info (unused)
+author:
+  name: "Orfeo Ciano"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "I am an **amazing** person."
+  location: "London, United Kingdom"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/orfeo-ciano"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/otacon"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
