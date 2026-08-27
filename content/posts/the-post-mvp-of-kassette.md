@@ -10,7 +10,7 @@ externalLink = ''
 series = ["kassette"]
 +++
 
-In the [previous post](https://orfeociano.substack.com/p/a-plumber-two-prompts-and-3000-lines), I covered how I got the
+In the [previous post]({{< ref "posts/a-plumber-two-prompts-and-3000-lines.md" >}}), I covered how I got the
 MVP up and running. Now it was time to iterate. I tested a few other simple games that use the same hardware setup as
 *Super Mario Bros.*, and they seemed to work just fine (or at least they looked fine to the naked eye).
 
