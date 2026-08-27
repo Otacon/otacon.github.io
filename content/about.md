@@ -1,25 +1,20 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
+description = ""
+date = "2026-08-27"
+aliases = ["about-us", "contact"]
 author = "Orfeo Ciano"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+I’m Orfeo, a software engineer with a soft spot for elegant systems, weird technical rabbit holes, and code that doesn’t
+make future-me angry.
 
-Hugo makes use of a variety of open source projects including:
+I take software engineering seriously: architecture, maintainability, performance, good abstractions, boring
+reliability [...] the usual things nobody notices when they work.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+I just don’t think we need to be serious about ourselves all the time.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+This blog is where I write about software, technology, ideas I’m exploring, and the occasional nerdy detour that seemed
+like a good use of an evening at the time.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Expect code, opinions, experiments, and very few inspirational quotes.
