@@ -3,3 +3,11 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Hugo
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# macOS
+.DS_Store
