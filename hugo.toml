@@ -1,6 +1,6 @@
 baseURL = 'https://otacon.github.io/'
 locale = 'en-gb'
-title = 'Cyanotic bytes'
+title = 'The Cyanotic bytes'
 theme = 'coder'
 
 [pagination]
@@ -9,61 +9,59 @@ pagerSize = 20
 [services]
 
 [markup.highlight]
-style = "github-dark"
+style = "dracula"
 
 [params]
-  author = "Orfeo Ciano"
-  info = "I’m Cyanotic: a software engineer writing about programming, emulation, retro gaming, and other nerdy rabbit holes."
-  description = "John Doe's personal website"
-  keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
-  #gravatar = "john.doe@example.com"
+author = "Orfeo Ciano"
+info = "A software engineer writing about programming, emulation, retro gaming, and other nerdy rabbit holes."
+description = "Orfeo Ciano's personal website"
+keywords = "blog,developer,personal"
+avatarurl = "images/avatar.jpg"
+favicon_32 = "images/favicon-32.png"
+favicon_16 = "images/favicon-16.png"
+since = 2019
+enableTwemoji = true
+colorScheme = "auto"
+hidecolorschemetoggle = false
 
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
-
-  since = 2019
-
-  enableTwemoji = true
-
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
-
-  # customCSS = ["css/custom.css"]
-  # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
+# customCSS = ["css/custom.css"]
+# customSCSS = ["scss/custom.scss"]
+# customJS = ["js/custom.js"]
 
 [taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
 
 # Social links
 [[params.social]]
-  name = "Github"
-  icon = "fa-brands fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/otacon/"
-[[params.social]]
-  name = "X"
-  icon = "fa-brands fa-x-twitter fa-2x"
-  weight = 3
-  url = "https://x.com/cyanotic87"
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/otacon/"
 
 [[params.social]]
-  name = "LinkedIn"
-  icon = "fa-brands fa-linkedin fa-2x"
-  weight = 3
-  url = "https://www.linkedin.com/in/orfeo-ciano/"
+name = "X"
+icon = "fa-brands fa-x-twitter fa-2x"
+weight = 3
+url = "https://x.com/cyanotic87"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 3
+url = "https://www.linkedin.com/in/orfeo-ciano/"
+
+[params.googleTagManager]
+id = "GTM-PSHWNFQV"
 
 # Menu links
 [[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
+name = "Blog"
+weight = 1
+url = "posts/"
 [[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+name = "About"
+weight = 2
+url = "about/"
