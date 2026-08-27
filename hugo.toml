@@ -7,8 +7,6 @@ theme = 'coder'
 pagerSize = 20
 
 [services]
-[services.disqus]
-shortname = "yourdiscussshortname"
 
 [markup.highlight]
 style = "github-dark"
