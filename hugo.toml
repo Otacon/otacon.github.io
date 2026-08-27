@@ -56,6 +56,16 @@ url = "https://www.linkedin.com/in/orfeo-ciano/"
 [params.googleTagManager]
 id = "GTM-PSHWNFQV"
 
+[params.telegram] # https://comments.app/
+siteID = "_BBxFoAx"
+limit = "10"
+height = "Auto"
+color = ""
+dislikes = true
+outlined = true
+colorful = true
+dark = ""
+
 # Menu links
 [[menu.main]]
 name = "Blog"
