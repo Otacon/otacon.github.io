@@ -1,5 +1,5 @@
 +++
-date = 2026-08-24T06:16:47+00:00
+date = 2026-08-24T08:30:00+00:00
 title = "Kassette goes Multiplatform"
 description = "Taking a JVM NES emulator to desktop and the browser with Kotlin Multiplatform"
 slug = "kassette-goes-multiplatform"

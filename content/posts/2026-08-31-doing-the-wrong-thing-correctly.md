@@ -1,5 +1,5 @@
 +++
-date = 2026-08-31T09:00:00+00:00
+date = 2026-08-31T08:30:00+00:00
 title = "Doing the wrong thing, correctly"
 description = "Mutability, bit packing, and other crimes committed in the name of performance"
 slug = "doing-the-wrong-thing-correctly"
@@ -10,7 +10,7 @@ externalLink = ''
 series = ["kassette"]
 +++
 
-In the [previous post]({{< ref "posts/kassette-goes-multiplatform.md" >}}), Kassette finally became multiplatform. It
+In the [previous post](/posts/kassette-goes-multiplatform/), Kassette finally became multiplatform. It
 ran on desktop, it ran in the browser, and technically it even ran on my phone. At roughly 5 FPS.
 
 After profiling the emulator, the problem turned out not to be one spectacularly slow algorithm. It was memory churn:

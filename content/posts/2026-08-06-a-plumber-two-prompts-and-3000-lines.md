@@ -1,5 +1,5 @@
 +++
-date = 2026-08-06T08:01:19+00:00
+date = 2026-08-06T08:30:00+00:00
 title = "A plumber, two prompts and 3000 lines of Kotlin"
 description = "The (un)making of an LLM generated NES emulator"
 slug = "a-plumber-two-prompts-and-3000-lines"
@@ -11,7 +11,7 @@ series = ["kassette"]
 +++
 
 In this article, I’d like to explain how I built the MVP of Kassette (in case you’ve missed it, there is
-the [first article]({{< ref "posts/announcing-kassette-a-kotlin-multiplatform.md" >}})). But before
+the [first article](/posts/announcing-kassette-a-kotlin-multiplatform/)). But before
 diving into the story, we need to cover one small detail: what an emulator actually is.
 
 # Nerd Context - feel free to skip this
@@ -402,7 +402,7 @@ principles still apply:
 An LLM can save you from writing thousands of lines by hand but it cannot save you from understanding how those lines
 fit together.
 
-In the [next post]({{< ref "posts/the-post-mvp-of-kassette.md" >}}) I’ll articulate how I started testing the
+In the [next post](/posts/the-post-mvp-of-kassette/) I’ll articulate how I started testing the
 architecture by adding Sound, Controllers an more features to Kassette.
 
 Enjoy!

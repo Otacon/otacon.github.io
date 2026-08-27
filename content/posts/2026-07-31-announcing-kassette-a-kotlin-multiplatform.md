@@ -1,5 +1,5 @@
 +++
-date = 2026-07-31T08:05:09+00:00
+date = 2026-07-31T08:30:00+00:00
 title = "Announcing Kassette: a Kotlin Multiplatform NES Emulator"
 description = "...and that's how it begins..."
 slug = "announcing-kassette-a-kotlin-multiplatform"
@@ -85,7 +85,7 @@ This is only the introduction.
 In the next posts, I’ll start digging into the technical details, the architectural decisions and the many small
 problems involved in convincing modern hardware to behave like a console released in the 1980s.
 
-[Here]({{< ref "posts/a-plumber-two-prompts-and-3000-lines.md" >}}) you can find the next post of the saga.
+[Here](/posts/a-plumber-two-prompts-and-3000-lines/) you can find the next post of the saga.
 
 In the meantime, you can take a look at the source code on GitHub or try the WebAssembly version directly in your
 browser.

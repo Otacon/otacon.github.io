@@ -1,5 +1,5 @@
 +++
-date = 2026-08-13T07:53:06+00:00
+date = 2026-08-13T08:30:00+00:00
 title = "The Post-MVP of Kassette"
 description = "From smooth sailing to architectural dominoes"
 slug = "the-post-mvp-of-kassette"
@@ -10,7 +10,7 @@ externalLink = ''
 series = ["kassette"]
 +++
 
-In the [previous post]({{< ref "posts/a-plumber-two-prompts-and-3000-lines.md" >}}), I covered how I got the
+In the [previous post](/posts/a-plumber-two-prompts-and-3000-lines/), I covered how I got the
 MVP up and running. Now it was time to iterate. I tested a few other simple games that use the same hardware setup as
 *Super Mario Bros.*, and they seemed to work just fine (or at least they looked fine to the naked eye).
 
