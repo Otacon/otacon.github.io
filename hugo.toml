@@ -60,11 +60,11 @@ id = "GTM-PSHWNFQV"
 siteID = "_BBxFoAx"
 limit = "10"
 height = "Auto"
-color = ""
-dislikes = true
+color = "2AA198"
+dislikes = false
 outlined = true
-colorful = true
-dark = ""
+colorful = false
+dark = false
 
 # Menu links
 [[menu.main]]
