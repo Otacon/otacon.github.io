@@ -1,7 +1,7 @@
-baseURL = 'https://otacon.github.io/'
+baseURL = 'http://localhost:1313/'
 locale = 'en-gb'
 title = 'The Cyanotic bytes'
-theme = 'coder'
+theme = 'PaperMod'
 
 [pagination]
 pagerSize = 20
@@ -15,7 +15,7 @@ style = "dracula"
 author = "Orfeo Ciano"
 info = "A software engineer writing about programming, emulation, retro gaming, and other nerdy rabbit holes."
 description = "Orfeo Ciano's personal website"
-keywords = "blog,developer,personal"
+keywords = ["blog", "developer", "personal"]
 avatarurl = "images/avatar.jpg"
 favicon_32 = "images/favicon-32.png"
 favicon_16 = "images/favicon-16.png"
@@ -23,6 +23,21 @@ since = 2026
 enableTwemoji = true
 colorScheme = "auto"
 hidecolorschemetoggle = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowPostMeta = true
+comments = true
+
+[params.homeInfoParams]
+Title = "The Cyanotic Bytes"
+Content = "A software engineer writing about programming, emulation, retro gaming, and other nerdy rabbit holes."
+
+[params.assets]
+favicon = "images/favicon-32.png"
+favicon16x16 = "images/favicon-16.png"
+favicon32x32 = "images/favicon-32.png"
+apple_touch_icon = "images/favicon-32.png"
 
 # customCSS = ["css/custom.css"]
 # customSCSS = ["scss/custom.scss"]
@@ -53,6 +68,18 @@ icon = "fa-brands fa-linkedin fa-2x"
 weight = 3
 url = "https://www.linkedin.com/in/orfeo-ciano/"
 
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/otacon/"
+
+[[params.socialIcons]]
+name = "x"
+url = "https://x.com/cyanotic87"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/orfeo-ciano/"
+
 [params.googleTagManager]
 id = "GTM-PSHWNFQV"
 
@@ -71,7 +98,13 @@ dark = false
 name = "Blog"
 weight = 1
 url = "posts/"
+
+[[menu.main]]
+name = "Archives"
+weight = 2
+url = "archives/"
+
 [[menu.main]]
 name = "About"
-weight = 2
+weight = 3
 url = "about/"

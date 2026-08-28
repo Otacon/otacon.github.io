@@ -1,0 +1,6 @@
+{{ $type := .Get 0 | default "info" }}
+{{ $title := .Get 1 | default ($type | title) }}
+<div class="notice notice-{{ $type }}">
+  <strong>{{ $title }}</strong>
+  <div>{{ .Inner | markdownify }}</div>
+</div>
