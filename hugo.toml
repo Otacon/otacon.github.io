@@ -2,6 +2,7 @@ baseURL = 'http://localhost:1313/'
 locale = 'en-gb'
 title = 'The Cyanotic bytes'
 theme = 'PaperMod'
+enableRobotsTXT = true
 
 [pagination]
 pagerSize = 20
