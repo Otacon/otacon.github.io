@@ -13,8 +13,8 @@ pagerSize = 20
 style = "dracula"
 
 [params]
-author = "Orfeo Ciano"
-description = "Orfeo Ciano's personal website"
+author = "Orfeo"
+description = "Orfeo's personal website"
 keywords = ["blog", "developer", "personal"]
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
