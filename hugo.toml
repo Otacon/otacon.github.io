@@ -27,6 +27,8 @@ ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 ShowPostMeta = true
+ShowReadingTime = true
+ShowToc = true
 comments = true
 
 [params.homeInfoParams]
