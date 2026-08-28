@@ -13,16 +13,8 @@ style = "dracula"
 
 [params]
 author = "Orfeo Ciano"
-info = "A software engineer writing about programming, emulation, retro gaming, and other nerdy rabbit holes."
 description = "Orfeo Ciano's personal website"
 keywords = ["blog", "developer", "personal"]
-avatarurl = "images/avatar.jpg"
-favicon_32 = "images/favicon-32.png"
-favicon_16 = "images/favicon-16.png"
-since = 2026
-enableTwemoji = true
-colorScheme = "auto"
-hidecolorschemetoggle = false
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
@@ -41,34 +33,11 @@ favicon16x16 = "images/favicon-16.png"
 favicon32x32 = "images/favicon-32.png"
 apple_touch_icon = "images/favicon-32.png"
 
-# customCSS = ["css/custom.css"]
-# customSCSS = ["scss/custom.scss"]
-# customJS = ["js/custom.js"]
-
 [taxonomies]
 category = "categories"
 series = "series"
 tag = "tags"
 author = "authors"
-
-# Social links
-[[params.social]]
-name = "Github"
-icon = "fa-brands fa-github fa-2x"
-weight = 1
-url = "https://github.com/otacon/"
-
-[[params.social]]
-name = "X"
-icon = "fa-brands fa-x-twitter fa-2x"
-weight = 3
-url = "https://x.com/cyanotic87"
-
-[[params.social]]
-name = "LinkedIn"
-icon = "fa-brands fa-linkedin fa-2x"
-weight = 3
-url = "https://www.linkedin.com/in/orfeo-ciano/"
 
 [[params.socialIcons]]
 name = "github"
@@ -84,16 +53,6 @@ url = "https://www.linkedin.com/in/orfeo-ciano/"
 
 [params.googleTagManager]
 id = "GTM-PSHWNFQV"
-
-[params.telegram] # https://comments.app/
-siteID = "_BBxFoAx"
-limit = "10"
-height = "Auto"
-color = "2AA198"
-dislikes = false
-outlined = true
-colorful = false
-dark = false
 
 # Menu links
 [[menu.main]]
