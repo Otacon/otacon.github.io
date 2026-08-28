@@ -1,0 +1,11 @@
+.entry-cover img {
+  width: 100%;
+  aspect-ratio: 16 / 5;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--radius);
+}
+
+.post-entry .entry-cover img {
+  aspect-ratio: 16 / 6;
+}
