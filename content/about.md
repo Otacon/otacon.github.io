@@ -3,7 +3,7 @@ title = "About"
 description = ""
 date = "2026-08-27"
 aliases = ["about-us", "contact"]
-author = "Orfeo Ciano"
+author = "Orfeo"
 +++
 
 I’m Orfeo, a software engineer with a soft spot for elegant systems, weird technical rabbit holes, and code that doesn’t
