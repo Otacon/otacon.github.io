@@ -1,0 +1,9 @@
+{{- $alt := .Get "alt" | default (.Get "caption") | plainify -}}
+{{- $caption := .Get "caption" -}}
+{{- with .Page.Resources.GetMatch (.Get "src") -}}
+  {{- $image := .Process "webp" -}}
+  <figure>
+    <img loading="lazy" src="{{ $image.RelPermalink }}" alt="{{ $alt }}">
+    {{- with $caption }}<figcaption><p>{{ . | markdownify }}</p></figcaption>{{ end -}}
+  </figure>
+{{- end -}}

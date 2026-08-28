@@ -1,0 +1,12 @@
+{{- with .cxt -}}
+  {{- if and .Params.cover.image (not $.isHidden) -}}
+    {{- $alt := .Params.cover.alt | default .Params.cover.caption | plainify -}}
+    {{- with .Resources.GetMatch .Params.cover.image -}}
+      {{- $image := .Fit "720x720 webp" -}}
+      <figure class="entry-cover">
+        <img loading="{{ cond $.IsSingle "eager" "lazy" }}" src="{{ $image.RelPermalink }}"
+          width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $alt }}">
+      </figure>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

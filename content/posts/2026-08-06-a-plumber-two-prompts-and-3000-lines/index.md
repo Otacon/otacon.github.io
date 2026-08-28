@@ -10,8 +10,9 @@ externalLink = ''
 series = ["kassette"]
 
 [cover]
-image = "/images/posts/a-plumber-two-prompts-and-3000-lines/image-1.png"
+image = "image-1.png"
 alt = "Simplified NES architecture diagram"
+relative = true
 hiddenInSingle = true
 +++
 
@@ -19,7 +20,7 @@ In this article, I’d like to explain how I built the MVP of Kassette (in case 
 the [first article](/posts/announcing-kassette-a-kotlin-multiplatform/)). But before
 diving into the story, we need to cover one small detail: what an emulator actually is.
 
-# Nerd Context - feel free to skip this
+{{< collapse summary="Nerd Context - feel free to skip this" >}}
 
 The next few sections get a little technical. You do not need to understand all of this to follow the rest of the
 article, so feel free to skip ahead if buses, memory addresses, and CPU instructions are not your idea of a good time.
@@ -112,7 +113,7 @@ read an instruction, work out what it is supposed to do, and reproduce that beha
 
 Here is a simplified diagram of the NES architecture:
 
-{{< figure src="/images/posts/a-plumber-two-prompts-and-3000-lines/image-1.png" alt="" >}}
+{{< figure src="image-1.png" alt="" >}}
 
 The console is built from a handful of main components:
 
@@ -140,6 +141,8 @@ different sections of the cartridge, provide extra memory, generate interrupts, 
 capabilities.
 
 In other words, the cartridge is not merely a storage device. It can also become an extension of the console itself.
+
+{{< /collapse >}}
 
 # Defining the MVP
 
@@ -370,7 +373,7 @@ In a commercial game, enough issues like this could be the difference between a 
 abandon.
 
 <!-- @formatter:off -->
-{{< figure src="/images/posts/a-plumber-two-prompts-and-3000-lines/image-2.png" alt="" caption="Most common screen you’ll see playing Ghosts ‘N Goblins">}}
+{{< figure src="image-2.png" alt="" caption="Most common screen you’ll see playing Ghosts ‘N Goblins">}}
 <!-- @formatter:on -->
 
 # Final Considerations

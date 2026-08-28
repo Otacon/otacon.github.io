@@ -10,8 +10,9 @@ externalLink = ''
 series = ["kassette"]
 
 [cover]
-image = "/images/posts/the-post-mvp-of-kassette/image-1.png"
+image = "image-1.png"
 alt = "Kassette emulator screenshot"
+relative = true
 hiddenInSingle = true
 +++
 
@@ -110,7 +111,7 @@ a post-processing step without interfering with the rendering pipeline itself.
 
 So far, the architecture was holding together until…
 
-{{< figure src="/images/posts/the-post-mvp-of-kassette/image-1.png" alt="" >}}
+{{< figure src="image-1.png" alt="" >}}
 
 # The Menu Bar domino
 

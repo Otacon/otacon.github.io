@@ -10,8 +10,9 @@ externalLink = ''
 series = ["kassette"]
 
 [cover]
-image = "/images/posts/announcing-kassette-a-kotlin-multiplatform/image-1.png"
+image = "image-1.png"
 alt = "Super Mario Bros running on Kassette"
+relative = true
 hiddenInSingle = true
 +++
 
@@ -22,7 +23,7 @@ I’ve always had a passion for technology, and like many children of my generat
 I still remember unboxing our NES on Christmas morning and watching my dad connect it to the big TV in the living room.
 A few minutes later, the whole family was playing *Super Mario Bros.* We kept going for about four hours straight.
 <!-- @formatter:off -->
-{{< figure src="/images/posts/announcing-kassette-a-kotlin-multiplatform/image-1.png" alt="" caption="Super Mario Bros running on Kassette">}}
+{{< figure src="image-1.png" alt="" caption="Super Mario Bros running on Kassette">}}
 <!-- @formatter:on-->
 The following Christmas, I received my second game: *The Battle of Olympus*. It was an early action-platforming
 role-playing game set in Ancient Greece. You had to wander around, speak to characters, collect hints and somehow work
@@ -31,7 +32,7 @@ out where to go next.
 There was only one small problem: the game was entirely in English. Neither my dad nor I spoke English.
 
 <!-- @formatter:off -->
-{{< figure src="/images/posts/announcing-kassette-a-kotlin-multiplatform/image-2.png" alt="" caption="Battle Of Olympus running on Kassette">}}
+{{< figure src="image-2.png" alt="" caption="Battle Of Olympus running on Kassette">}}
 <!-- @formatter:on-->
 
 So our strategy was mostly based on guessing and random exploration. That night I eventually gave up and went to bed. My
