@@ -8,6 +8,11 @@ tags = ["ai", "kmp", "nes", "emulation", "kotlin"]
 categories = []
 externalLink = ''
 series = ["kassette"]
+
+[cover]
+image = "/images/posts/the-post-mvp-of-kassette/image-1.png"
+alt = "Kassette emulator screenshot"
+hiddenInSingle = true
 +++
 
 In the [previous post](/posts/a-plumber-two-prompts-and-3000-lines/), I covered how I got the

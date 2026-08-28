@@ -8,6 +8,11 @@ tags = ["ai", "kmp", "nes", "emulation", "kotlin"]
 categories = []
 externalLink = ''
 series = ["kassette"]
+
+[cover]
+image = "/images/posts/announcing-kassette-a-kotlin-multiplatform/image-1.png"
+alt = "Super Mario Bros running on Kassette"
+hiddenInSingle = true
 +++
 
 ## The passion

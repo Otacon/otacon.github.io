@@ -8,6 +8,11 @@ tags = ["ai", "kmp", "nes", "emulation", "kotlin"]
 categories = []
 externalLink = ''
 series = ["kassette"]
+
+[cover]
+image = "/images/posts/a-plumber-two-prompts-and-3000-lines/image-1.png"
+alt = "Simplified NES architecture diagram"
+hiddenInSingle = true
 +++
 
 In this article, I’d like to explain how I built the MVP of Kassette (in case you’ve missed it, there is
